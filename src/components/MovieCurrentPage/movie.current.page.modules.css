@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.movie-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.movie-card > div > img{
+    height: 300px;
+    width: 300px;
+    border-bottom: 1px solid black;
+}
+.movie-card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-card-movie{
+    letter-spacing: 2px;
+    text-align: center;
+    width: 300px;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.release-card-movie{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+.button-movie-details{
+    margin: 10px 0;
+}
+.button-movie-details > a > button {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    height: 25px;
+    width: 70px;
+    background: rgb(255, 255, 255);
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.button-movie-details > a > button:hover{
+    background: black;
+    color: #ffffff;
+    transition: 0.5s;
+}

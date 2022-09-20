@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+.footer{
+    background: rgb(47, 47, 47);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid white;
+}
+.footer-layout{
+    padding-left: 125px;
+    gap: 20%;
+    display: flex;
+    align-items: center;
+    animation: menu 1 3s;
+}
+
+@keyframes menu {
+    0%{
+        margin-right: 1500px;
+    }
+}
+
+.footer-layout > .footer-right-nav-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.footer-left-nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-left-nav-menu > a {
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    animation: nav_link 1 3s;
+    text-decoration: none;
+    font-size: 38px;
+    transition: 2s;
+}
+
+@keyframes nav_link {
+    0%{
+        font-size: 0;
+    }
+}
+
+.footer-left-nav-menu > img {
+    padding-top: 3px;
+    height: 30px;
+    width: 30px;
+    animation: img_cinema 1 5s;
+}
+
+@keyframes img_cinema {
+    0%{
+        height: 0;
+        width: 0;
+    }
+    50%{
+        margin-left: 100px;
+        height: 0;
+        width: 0;
+    }
+}
+
+.footer-left-nav-menu > a:hover{
+    font-size: 40px;
+    transition: 1s;
+}
+
+.footer-right-nav-menu > a{
+    animation: nav_menu 1 4s;
+}
+
+@keyframes nav_menu {
+    0%{
+        font-size: 0;
+    }
+}
+
+.footer-left-nav-menu > a.active {
+    font-size: 40px;
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.footer-right-nav-menu > a {
+    padding-top: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 2s;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 700;
+}
+
+.footer-right-nav-menu > a:hover {
+    font-size: 18px;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.footer-right-nav-menu > a.active {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgba(255, 0, 0, 0.9);
+}
+
+
+

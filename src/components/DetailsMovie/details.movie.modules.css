@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.movie-details-element{
+    display: flex;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 50px;
+    width: 1000px;
+    margin: 75px auto;
+    animation: movie-details 1 3s;
+}
+
+@keyframes movie-details {
+    0%{
+        margin-top: 1000px;
+    }
+}
+
+.movie-details-element > div > img{
+    width: 500px;
+    height: 500px;
+    border-right: 1px solid black;
+}
+.description-movie-element{
+    background: rgba(168, 168, 168, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-movie-element > h1{
+    margin: 50px 0 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 4px;
+    animation: movie-title 1 5s;
+}
+@keyframes movie-title {
+    0%{
+        font-size: 0;
+    }
+    50%{
+        font-size: 0;
+    }
+    90%{
+        letter-spacing: 15px;
+    }
+}
+
+.release-date-element{
+    color: rgba(255, 0, 0, 0.9);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 10px;
+    animation: release-date 1 5s;
+}
+@keyframes release-date {
+    0%{
+        font-size: 0;
+    }
+    50%{
+        font-size: 0;
+    }
+    90%{
+        letter-spacing: 8px;
+    }
+}
+
+.budget-element{
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    animation: release-date 1 5s;
+}
+.description-movie-element > div{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    animation: release-date 1 5s;
+}
+.description-movie-element > p{
+    margin: 10px 50px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    animation: overview-element 1 5s;
+}
+@keyframes overview-element {
+    0%{
+        font-size: 0;
+    }
+    50%{
+        font-size: 0;
+    }
+}

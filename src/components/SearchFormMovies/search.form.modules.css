@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+.search-button {
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 2px;
+    padding-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.search-button:hover{
+    background: black;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.search-form-element > div > input {
+    height: 30px;
+    border: 1px solid black;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.search-form-element{
+    display: flex;
+    flex-direction: column;
+}
+.msg-form-element{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.9);
+}

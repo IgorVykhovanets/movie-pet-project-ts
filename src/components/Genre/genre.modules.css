@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.genres-name-list > a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+.genres-name-list > a:hover{
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.genres-name-list > a.active {
+    color: rgba(255, 0, 0, 0.9);
+}
